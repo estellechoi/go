@@ -37,6 +37,17 @@ cd go
 
 <br />
 
+### Install packages
+
+```zsh
+# if GO111MODULE=off, use $GOPATH and vendor/ path when installing modules
+# if GO111MODULE=on, ignore $GOPATH
+go env -w GO111MODULE=off
+go get
+```
+
+<br />
+
 ### Run main package
 
 ```zsh
