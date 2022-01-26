@@ -41,7 +41,7 @@ cd go
 
 ```zsh
 # if GO111MODULE=off, use $GOPATH and vendor/ path when installing modules
-# if GO111MODULE=on, ignore $GOPATH
+# if GO111MODULE=on, use go modules (you will need it when you install new pkgs)
 go env -w GO111MODULE=off
 go get
 ```
