@@ -8,7 +8,8 @@ This repo is for getting to know Go.
 
 ```zsh
 # installing path would be /usr/local/Cellar/go ($GOROOT)
-# workspace would be /Users/username/go ($GOPATH) by default (just in case you install it using brew)
+# workspace would be /Users/username/go ($GOPATH) by default
+# just in case you install it using brew
 brew install go
 ```
 
