@@ -7,18 +7,30 @@ This repo is for getting to know Go.
 ### Install Go
 
 ```zsh
-# installing path would be /usr/local/Cellar/go
+# installing path would be /usr/local/Cellar/go ($GOROOT)
+# workspace would be /Users/username/go ($GOPATH) by default (just in case you install it using brew)
 brew install go
 ```
 
 <br />
 
-### Clone this repo under your Go path
+### Go to your workspace defined by `$GOPATH` and make dir named `src`
 
 ```zsh
-# make path src/github.com/estellechoi under the Go path to use go command
-cd /usr/local/Cellar/go/src/github.com/estellechoi
-git clone ...
+cd /Users/username/go
+mkdir src
+cd src
+```
+
+### Clone this repo under your `$GOPATH`
+
+```zsh
+# make path /github.com/estellechoi under the $GOPATH to use go command
+mkdir -p github.com/estellechoi
+cd github.com/estellechoi
+
+# git clone
+git clone url
 cd go
 ```
 
